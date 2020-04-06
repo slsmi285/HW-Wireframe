@@ -7,16 +7,54 @@ body {
 }
 #group {
     background: #ebebeb;
+    border: 3px solid #777;
+    text-align: center;
 }
-.article {
-    color: #ebebeb;
+#aside {
+    background: #ebebeb;
+    border: 3px solid #777;
+    float: right;
+    text-align: center;
+    padding: 150px;
+    margin: 100px;
+
+}
+#foot {
+    background: #ebebeb;
+    border: 3px solid #777;
+    clear: both;
+    text-align: center;
+}
+
+#article {
+    color: hsl(0, 0%, 92%);
     background: #777;
+    text-align: center;
 }
-#h1 {
+#head {
     color: #777;
     background: #ebebeb;
+    border: 2px solid #777;
+    font-weight: bold;
+    text-align: center;
 }
-.sec1 {
+#para {
+    color: #777;
+    background: #ebebeb;
+    border: 2px solid #777;
+    text-align: center;
+}
+#sec1 {
     width: 495px;
+    text-align: center;
+    padding: 150px;
+    margin: 100px;
+}
+#div {
+    background: #777;
+    text-align: center;
+    padding: 150px;
+    margin: 100px;
+
 }
     
