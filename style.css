@@ -1,5 +1,5 @@
 body {
-    font-family: "arial", Helvetica Neue, Helvetica, sans-serif;
+    font-family: "arial", "Helvetica Neue", Helvetica, sans-serif;
     color: rgb(39, 26, 26);
     background: #777;
     width: 960px;
@@ -9,6 +9,7 @@ body {
     background: #ebebeb;
     border: 3px solid #777;
     text-align: center;
+    height: 75px;
 }
 #aside {
     background: #ebebeb;
@@ -16,7 +17,7 @@ body {
     float: right;
     text-align: center;
     padding: 150px;
-    margin: 100px;
+    margin: 50px;
 
 }
 #foot {
@@ -24,6 +25,7 @@ body {
     border: 3px solid #777;
     clear: both;
     text-align: center;
+    height: 75px;
 }
 
 #article {
@@ -47,14 +49,20 @@ body {
 #sec1 {
     width: 495px;
     text-align: center;
-    padding: 150px;
-    margin: 100px;
+    padding: 50px 100px 50px 100px;
+
+    height: 200px;
+
 }
 #div {
     background: #777;
     text-align: center;
-    padding: 150px;
-    margin: 100px;
-
+}
+#sec2 {
+    background: #ebebeb;
+    border: 3px solid #777;
+    text-align: center;
+    height: 150px;
+    padding: 50px;
 }
     
