@@ -1,0 +1,22 @@
+body {
+    font-family: "arial", Helvetica Neue, Helvetica, sans-serif;
+    color: rgb(39, 26, 26);
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+#group {
+    background: #ebebeb;
+}
+.article {
+    color: #ebebeb;
+    background: #777;
+}
+#h1 {
+    color: #777;
+    background: #ebebeb;
+}
+.sec1 {
+    width: 495px;
+}
+    
