@@ -1,68 +1,80 @@
-body {
+body{
     font-family: "arial", "Helvetica Neue", Helvetica, sans-serif;
-    color: rgb(39, 26, 26);
+    color: rgb(39,26,26);
     background: #777;
     width: 960px;
     font-size: 18px;
+    position: relative;
+    left: 50px;
 }
 #group {
-    background: #ebebeb;
+    background: #EBEBEB;
     border: 3px solid #777;
     text-align: center;
-    height: 75px;
+    height: 55px;
+    padding-top: 20px;
 }
 #aside {
-    background: #ebebeb;
+    background: #EBEBEB;
     border: 3px solid #777;
     float: right;
     text-align: center;
-    padding: 150px;
-    margin: 50px;
-
-}
-#foot {
-    background: #ebebeb;
-    border: 3px solid #777;
-    clear: both;
-    text-align: center;
-    height: 75px;
-}
-
-#article {
-    color: hsl(0, 0%, 92%);
-    background: #777;
-    text-align: center;
-}
-#head {
-    color: #777;
-    background: #ebebeb;
-    border: 2px solid #777;
-    font-weight: bold;
-    text-align: center;
-}
-#para {
-    color: #777;
-    background: #ebebeb;
-    border: 2px solid #777;
-    text-align: center;
-}
-#sec1 {
-    width: 495px;
-    text-align: center;
-    padding: 50px 100px 50px 100px;
-
-    height: 200px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 440px;
+    height: 230px;
+    padding-top: 20px;
 }
 #div {
     background: #777;
     text-align: center;
 }
-#sec2 {
-    background: #ebebeb;
+#sec1 {
+    background: #EBEBEB;
     border: 3px solid #777;
     text-align: center;
-    height: 150px;
-    padding: 50px;
+    width: 495px;
+    height: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding-top: 20px;
 }
-    
+#article {
+    color: hsl(0, 0%, 92%);
+    background: #777;
+    text-align: center;
+    height: 155px;
+    width: 475px;
+    margin: 20px 10px 15px 10px;
+    padding-top: 20px;
+}
+#head {
+    color: #777;
+    background: #EBEBEB;
+    border: 2px solid #777;
+    font-weight: bold;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    margin: 25px 5px 1px 10px;
+    padding-top: 15px;
+}
+#para {
+    color: #777;
+    background: #EBEBEB;
+    border: 3px solid #777;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    margin: 1px 5px 10px 10px;
+    padding-top:15px;
+}
+#foot {
+    background: #EBEBEB;
+    border: 3px solid #777;
+    clear: both;
+    text-align:center;
+    padding: 30px;
+}
