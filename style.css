@@ -7,14 +7,22 @@ body{
     position: relative;
     left: 50px;
 }
-#group {
+.group {
     background: #EBEBEB;
     border: 3px solid #777;
     text-align: center;
     height: 55px;
     padding-top: 20px;
 }
-#aside {
+.nav {
+    background: #EBEBEB;
+    border: 3px solid #777;
+    text-align: center;
+    height: 55px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+.aside {
     background: #EBEBEB;
     border: 3px solid #777;
     float: right;
@@ -30,7 +38,7 @@ body{
     background: #777;
     text-align: center;
 }
-#sec1 {
+.sec1 {
     background: #EBEBEB;
     border: 3px solid #777;
     text-align: center;
